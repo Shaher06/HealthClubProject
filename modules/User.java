@@ -50,3 +50,9 @@ public class User {
         System.out.println("Role: " + role);
     }
 }
+protected ArrayList<Notification> inbox = new ArrayList<>();
+
+public void sendNotification(Notification n) {
+    inbox.add(n);
+}
+
