@@ -1,6 +1,7 @@
 package modules;
 
 public class Member extends User {
+    //Tarek code                            
 
     private String subscription;
 
